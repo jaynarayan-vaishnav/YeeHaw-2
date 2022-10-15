@@ -9,7 +9,7 @@ function Navbar() {
                         <p className="text-2xl font-rye text-white">HuntersNest</p>
                     </a>
                     <div className="ml-10 flex items-baseline gap-10 font-rancho text-xl tracking-widest">
-                        <a className="text-white hover:text-amber-500 px-3 py-2 rounded-md duration-300" href="/bounty">
+                        <a className="text-white hover:text-amber-500 px-3 py-2 rounded-md duration-300" href="/#/bounty">
                             Bounty
                         </a>
                         <a className="text-white hover:text-amber-500 px-3 py-2 rounded-md duration-300" href="/#/towns">
