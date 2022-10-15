@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="bg-white dark:bg-gray-800 bg-transparent">
+    <nav className="bg-white bg-transparent">
         <div className="max-w-[85vw] mx-auto">
             <div className="flex items-center justify-between h-[10vh] gap-10">
                 <div className="w-full justify-between flex items-center">
