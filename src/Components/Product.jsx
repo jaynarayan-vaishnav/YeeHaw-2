@@ -1,4 +1,5 @@
 // eslint-disable-next-line react/prop-types
+
 export default function Product({ source, productName, price}) {
   return (
     <div className="">
@@ -70,7 +71,7 @@ export default function Product({ source, productName, price}) {
             </span>
           </div>
           <div className="flex justify-between items-center">
-            <span className="text-3xl font-bold text-gray-900 dark:text-white">
+             <span className="text-3xl font-bold text-gray-900 dark:text-white">
               {price}
             </span>
             <a
