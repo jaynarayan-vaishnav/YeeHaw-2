@@ -1,8 +1,8 @@
 // eslint-disable-next-line react/prop-types
-export default function Product({ source }) {
+export default function Product({ source,pt }) {
   return (
     <div className="">
-      <div className="w-full max-w-[400px] bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div className="w-full max-w-[400px] bg-[#FFD7D8] rounded-lg shadow-md ">
         <div className="h-[250px]">
           <a href="#">
             <img className="p-8 rounded-t-lg" src={source} alt="Boots " />
@@ -10,8 +10,8 @@ export default function Product({ source }) {
         </div>
         <div className="px-5 pb-5 ">
           <a href="#">
-            <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-              Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
+            <h5 className="text-xl font-semibold tracking-tight text-gray-900 ">
+              {pt}
             </h5>
           </a>
           <div className="flex items-center mt-2.5 mb-5">
@@ -70,7 +70,7 @@ export default function Product({ source }) {
             </span>
           </div>
           <div className="flex justify-between items-center">
-            <span className="text-3xl font-bold text-gray-900 dark:text-white">
+            <span className="text-3xl font-bold text-gray-900">
               $590
             </span>
             <a
