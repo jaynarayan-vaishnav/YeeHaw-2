@@ -24,9 +24,9 @@ function Navbar() {
               </a>
               <a
                 className="text-white hover:text-amber-500 px-3 py-2 rounded-md duration-300"
-                href="/#/town"
+                href="/#/towns"
               >
-                Town
+                Towns
               </a>
               <a
                 className="text-white hover:text-amber-300 px-3 py-2 rounded-md duration-300"
