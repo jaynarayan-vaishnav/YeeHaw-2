@@ -2,7 +2,7 @@ import Navbar from "../Components/Navbar";
 import criminal from "../assets/criminal.png";
 import wanted from "../assets/wanted.png";
 
-function Bounty() {
+function bounty() {
   return (
     <div className="bg-main bg-fixed  min-h-screen bg-no-repeat bg-cover">
       <Navbar />
@@ -23,4 +23,4 @@ function Bounty() {
   )
 }
 
-export default Bounty
+export default bounty
