@@ -2,7 +2,7 @@ import { Routes, Route, HashRouter } from 'react-router-dom';
 import Home from "./pages/Home";
 import Bounty from "./pages/Bounty"
 import Shop from './pages/Shop';
-import Town from './pages/Town';
+import Town from './pages/town';
 
 function App() {
   return (
